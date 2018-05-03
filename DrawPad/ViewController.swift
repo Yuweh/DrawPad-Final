@@ -52,27 +52,35 @@ class ViewController: UIViewController {
         UIGraphicsBeginImageContext(view.frame.size)
         let context = UIGraphicsGetCurrentContext()
         tempImageView.image?.draw(in: CGRect(x: 0, y: 0, width: view.frame.size.width, height: view.frame.size.height))
-        
+
         // 2
         context?.move(to: CGPoint(x: fromPoint.x, y: fromPoint.y))
         context?.addLine(to: CGPoint(x: fromPoint.x, y: fromPoint.y))
-        
+
         // 3
         context?.setLineCap(CGLineCap.round)
         context?.setLineWidth(brushWidth)
-        context?.setStrokeColor(red: 1,green: 1,blue: 1,alpha: 1)
+        context?.setStrokeColor(red: red, green: green, blue: blue, alpha: 1)
         context?.setBlendMode(CGBlendMode.normal)
-        
-        
-        
+
         // 4
-        //CGContextStrokePath(context)
         context?.strokePath()
-        
+
         // 5
         tempImageView.image = UIGraphicsGetImageFromCurrentImageContext()
         tempImageView.alpha = opacity
         UIGraphicsEndImageContext()
+        
+        //Alternative
+//        let path = UIBezierPath()
+//        let shapeLayer = CAShapeLayer()
+//        shapeLayer.lineWidth = 4
+//        shapeLayer.strokeColor = UIColor.red.cgColor
+//        path.removeAllPoints()
+//        path.move(to: fromPoint)
+//        path.addLine(to: toPoint)
+//        shapeLayer.path = path.cgPath
+//        self.view.layer.addSublayer(shapeLayer)
         
     }
     
