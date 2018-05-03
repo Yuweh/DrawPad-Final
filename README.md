@@ -1,7 +1,6 @@
 # DrawPad
 Revived Starter Project from Swift 1.2 to Swift 4 :) / from Ray Wenderlich
 
-
 works with
 [![IDE](https://img.shields.io/badge/Xcode-9-blue.svg)](https://developer.apple.com/xcode/)
 [![Language](https://img.shields.io/badge/swift-4-orange.svg)](https://swift.org)
@@ -10,24 +9,11 @@ works with
 ------
 
 ## Finished App
-<img src="https://github.com/Yuweh/DrawPad/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202018-05-02%20at%2022.13.45.png" width="400">
 
-------
+Still in development XD
 
-### Topics that will be learned :D 
+<img src="https://github.com/Yuweh/DrawPad-Final/blob/master/CreativeShot.png" width="400">
 
-
-draw lines and strokes using Quartz2D
-
-use multiple colors
-
-set brush stroke widths and opacity
-
-create an eraser
-
-create a custom RGB color selector, and
-
-share your drawing! in Social Media XD
 
 ------
 
