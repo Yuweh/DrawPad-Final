@@ -12,7 +12,7 @@ works with
 
 Still in development XD
 
-<img src="https://github.com/Yuweh/DrawPad-Final/blob/master/DrawPadPhase2.png" width="400">
+<img src="https://github.com/Yuweh/DrawPad-Final/blob/master/CreativeShot.png" width="400">
 
 
 ------
