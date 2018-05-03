@@ -1,7 +1,6 @@
 # DrawPad
 Revived Starter Project from Swift 1.2 to Swift 4 :) / from Ray Wenderlich
 
-
 works with
 [![IDE](https://img.shields.io/badge/Xcode-9-blue.svg)](https://developer.apple.com/xcode/)
 [![Language](https://img.shields.io/badge/swift-4-orange.svg)](https://swift.org)
@@ -13,7 +12,7 @@ works with
 
 Still in development XD
 
-------
+<img src="https://github.com/Yuweh/DrawPad-Final/blob/master/DrawPadPhase2.png" width="400">
 
 
 ------
