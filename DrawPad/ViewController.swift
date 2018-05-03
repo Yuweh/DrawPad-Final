@@ -21,6 +21,20 @@ class ViewController: UIViewController {
     var opacity: CGFloat = 1.0
     var swiped = false
     
+    let colors: [(CGFloat, CGFloat, CGFloat)] = [
+        (0, 0, 0),
+        (105.0 / 255.0, 105.0 / 255.0, 105.0 / 255.0),
+        (1.0, 0, 0),
+        (0, 0, 1.0),
+        (51.0 / 255.0, 204.0 / 255.0, 1.0),
+        (102.0 / 255.0, 204.0 / 255.0, 0),
+        (102.0 / 255.0, 1.0, 0),
+        (160.0 / 255.0, 82.0 / 255.0, 45.0 / 255.0),
+        (1.0, 102.0 / 255.0, 0),
+        (1.0, 1.0, 0),
+        (1.0, 1.0, 1.0),
+        ]
+    
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
@@ -100,12 +114,26 @@ class ViewController: UIViewController {
   // MARK: - Actions
 
   @IBAction func reset(_ sender: AnyObject) {
+    mainImageView.image = nil
   }
 
   @IBAction func share(_ sender: AnyObject) {
   }
   
   @IBAction func pencilPressed(_ sender: AnyObject) {
+    // 1
+    var index = sender.tag ?? 0
+    if index < 0 || index >= colors.count {
+        index = 0
+    }
+    
+    // 2
+    (red, green, blue) = colors[index]
+    
+    // 3
+    if index == colors.count - 1 {
+        opacity = 1.0
+    }
   }
 }
 
