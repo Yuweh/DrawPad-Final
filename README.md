@@ -10,9 +10,10 @@ works with
 
 ## Finished App
 
-Still in development XD
+-For Testing esp settings control XD
 
-<img src="https://github.com/Yuweh/DrawPad-Final/blob/master/CreativeShot.png" width="400">
+<img src="https://github.com/Yuweh/DrawPad-Final/blob/master/CreativeShot.png" width="400"> <img src="https://github.com/Yuweh/DrawPad-Final/blob/master/CreativeShot2.png" width="400">
+
 
 
 ------
