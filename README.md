@@ -10,24 +10,11 @@ works with
 ------
 
 ## Finished App
-<img src="https://github.com/Yuweh/DrawPad/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202018-05-02%20at%2022.13.45.png" width="400">
+
+Still in development XD
 
 ------
 
-### Topics that will be learned :D 
-
-
-draw lines and strokes using Quartz2D
-
-use multiple colors
-
-set brush stroke widths and opacity
-
-create an eraser
-
-create a custom RGB color selector, and
-
-share your drawing! in Social Media XD
 
 ------
 
